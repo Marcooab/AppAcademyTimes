@@ -1,0 +1,98 @@
+/* Your code here */
+.masthead{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+   
+
+}
+
+.technologies{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.menu-and-search{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.button-icons{
+    font-size: 11px;
+    padding: 9px 7px;
+    height: 40px;
+    
+}
+
+.button-icons:hover{
+    background-color: #f7f7f5;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.css, .html, .js, .py{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    margin: 5px;
+  
+    
+}
+
+.techs{
+    border-top: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 11px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.paper, .date{
+    font-size: 11px;
+}
+
+.date{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.paper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 11px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.li-menu{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+

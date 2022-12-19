@@ -1,0 +1,72 @@
+/* Your code here */
+.interest-links{
+  display: grid;
+  grid-template-columns:  1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "image, text, image, text, image, text, text, image, text";
+  border:#6f6f6f 1px solid;
+  padding: 10px;
+}
+
+
+
+.interests-bar__image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 0 10px;  
+}
+
+.sum{
+  border-left: solid 1px #6f6f6f;
+  padding: 0 20px;
+
+}
+
+.interests-bar__story-title{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 10px 0 10px;
+  border-right: solid 1px #6f6f6f;
+}
+
+.interests-bar__story{
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+  border-right: solid 1px #6f6f6f;
+  
+}
+
+.interests-bar__stock-price{
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 12px;
+  align-items: center;
+  
+
+  
+}
+
+.interests-bar__stock-price span{
+  border-bottom: 1px solid #6f6f6f;
+
+
+}
+
+.interests-bar__price{
+  color: green;
+  border-bottom: 1px solid #6f6f6f;
+}
+
+
+.interests-bar__big-text{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-left: solid 1px #6f6f6f;
+}
